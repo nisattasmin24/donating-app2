@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#donationSection {
+    text-align: center;
+}
+
+#donateButton {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#donateButton:hover {
+    background-color: #218838;
+}
+
+#thankYouMessage {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.blog {
+    margin-top: 30px;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-post h3 {
+    font-size: 20px;
+    color: #444;
+}
+
+.blog-post p {
+    font-size: 16px;
+    color: #666;
+}
